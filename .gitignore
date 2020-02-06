@@ -17,3 +17,5 @@ robots.txt
 _site
 .jekyll-cache/
 prefs
+_includes/analytics.html
+_includes/analyticsoutbound.html
