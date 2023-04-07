@@ -1,0 +1,13 @@
+---
+layout: project
+modal-id: 3
+date: 2021-06-30
+img: wcc1.jpg
+alt: image-alt
+project-date: October 2020 - June 2021
+org: Washington Conservation Corps
+loc: Renton, WA
+category: [ environment, home ]
+description: As a crew member in the Washington Conservation Corps (WCC), I restored native riparian and wetland ecosystems in King County, WA. I wrestled with Himalayan blackberry and English Ivy, personally planted over 4000 native trees, shrubs, and live stakes, and kept the team safe and healthy with daily safety talks.
+ready: true
+---

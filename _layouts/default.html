@@ -1,119 +1,17 @@
----
----
 <!DOCTYPE html>
-<!-- saved from url=(0064)https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm -->
 <html>
-<head>
-  <meta property="og:image" content="https://charlieweiss.info/images/meta.png"> <!-- change this for messenger -->
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="Charlie Weiss is studying to be a robotics engineer at Olin College. Find a collection of images and descriptions of many of her projects here.">
-  {% include analytics.html %}
-  {% include analyticsoutbound.html %}
+{% include head.html %}
 
-  <script src="//fast.wistia.net/labs/fresh-url/v1.js" async></script>
-
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <title>{{ page.title }}</title>
-
-  <script src="https://use.fontawesome.com/82fe970e1b.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-
-
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/Template_files/w3.css">
-  <!--<link rel="stylesheet" href="./Template_files/css">-->
-  <link rel="stylesheet" href="/Template_files/font-awesome.min.css">
-  <link rel="stylesheet" id="google-fonts-css" href="https://fonts.googleapis.com/css?family=Raleway%3A400%2C700%7CPathway+Gothic+One&amp;ver=3.0.0" type="text/css" media="all">
-
-  <style>
-    body, h1, h2, h3, h4, h5, h6 {font-family: "Raleway", sans-serif}
-
-    {% if page.hasSlideshow1 == 1 %}
-    .mySlides1 {display: none;}
-    {% endif %}
-
-    {% if page.hasSlideshow2 == 1 %}
-    .mySlides2 {display: none;}
-    {% endif %}
-
-    {% if page.hasDropdown == 1 %}
-    {% include dropdown.html %}
-    {% endif %}
-
-  </style>
-</head>
-
-<body class="w3-light-grey w3-content" style="max-width:1600px">
-
-  <!-- Sidebar/menu -->
-  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index: 3; width: 300px; display: none;" id="mySidebar"><br>
-    <div class="w3-container">
-      <a onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-      <i class="fa fa-remove"></i>
-    </a>
-      <img src="/images/charlieweiss.jpeg" style="width:45%;" class="w3-round"><br><br>
-      <h4><b>CHARLIE WEISS</b></h4>
-    </div>
-    <div class="w3-bar-block">
-      <a href="/#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ENGINEERING</a>
-      <a href="/#crafts" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fas fa-cat fa-fw w3-margin-right"></i>ART</a>
-      <a href="/#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
-      <a href="./#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
-      <a href="/charlieweiss_resume.pdf" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
-        <span class="w3-margin-right">
-          <i class="fa fa-file-text"></i>
-          <i class="fa fa-sub fa-user"></i>
-        </span>
-        RESUME</a>
-        <a href="/calendar" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fas fa-calendar-alt fa-fw w3-margin-right"></i>CALENDAR</a>
-    </div>
-    <div class="w3-panel w3-large">
-      <a href="mailto:charlievweiss@gmail.com"><i class="fa fa-envelope w3-hover-opacity fa-lg"></i></a>
-      <sp><b>|</b></sp>
-      <a href="https://www.linkedin.com/in/charlievweiss/" target="_blank"><i class="fa fa-linkedin-square w3-hover-opacity fa-lg"></i></a>
-      <sp><b>|</b></sp>
-      <a href="https://github.com/charlievweiss" target="_blank"><i class="fa fa-github w3-hover-opacity fa-lg"></i></a>
-
-    </div>
-  </nav>
-
-  <!-- Overlay effect when opening sidebar on small screens -->
-  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor: pointer; display: none;" title="close side menu" id="myOverlay"></div>
-
-  <!-- !PAGE CONTENT! -->
-  <div class="w3-main" style="margin-left:300px">
-    {{ content }}
-    {% include contact.html %}
-    {% include templateCred.html %}
-  </div>
-
-  <script>
-    // Script to open and close sidebar
-    function w3_open() {
-      document.getElementById("mySidebar").style.display = "block";
-      document.getElementById("myOverlay").style.display = "block";
-    }
-
-    function w3_close() {
-      document.getElementById("mySidebar").style.display = "none";
-      document.getElementById("myOverlay").style.display = "none";
-    }
-  </script>
-
-  {% if page.hasSlideshow1 == 1 %}
-  {% include slideshow1.html %}
-  {% endif %}
-
-  {% if page.hasSlideshow2 == 1 %}
-  {% include slideshow2.html %}
-  {% endif %}
-
-
+<body id="page-top" class="index">
+  <!-- include nav.html -->
+  {% include nav_test.html %}
+  {% include header.html %}
+  {% include portfolio_grid_tagged.html %}
+  {% include about.html %}
+  {% include footer.html %}
+  {% include modals.html %}
+  {% include js.html %}
 </body>
 
 </html>
+
