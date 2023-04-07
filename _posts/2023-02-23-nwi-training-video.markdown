@@ -1,6 +1,6 @@
 ---
 layout: project
-modal-id: 4
+modal-id: 20230223
 date: 2023-02-24
 img: nwi_training_video.png
 alt: screenshot of NWI training video

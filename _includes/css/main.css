@@ -510,3 +510,8 @@ footer .footer-below {
     text-transform: uppercase; 
     text-align: center;
 }
+
+/* button padding */
+.simplebtn {
+    margin: 15px;
+}
