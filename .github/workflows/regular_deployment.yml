@@ -8,4 +8,11 @@ on:
   pull_request:
     branches:
       - main
-  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    permissions:
+      deployments: write
