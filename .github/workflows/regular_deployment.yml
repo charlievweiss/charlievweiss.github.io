@@ -1,0 +1,11 @@
+name: regular-deployment
+run-name: Deploying from main branch...
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
