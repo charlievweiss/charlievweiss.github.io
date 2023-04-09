@@ -14,7 +14,7 @@ more: false
 ---
 
 <p><b><big>Digitizing wetlands for the National Wetlands Inventory and Joint Base Elmendorf-Richardson (including field work):</big></b></p>
-<p>These files are meant to represent the work I completed by the end of my internship with the US Fish and Wildlife Service from April 2022-February 2023. They are watermarked as drafts and are <b>not</b> the final versions shown to the public after official review-- that will happen later in 2023.</p>
+<p>These files are meant to represent the work I completed by the end of my internship with the US Fish and Wildlife Service from April 2022-February 2023. They are posted here as watermarked drafts with permission, but they are <b>not</b> the final versions distributed to the public after official review-- that will happen later in 2023.</p>
 <p>
     <ul>
         <li><a href="materials/JBER_Final_Report_20230223_watermark.pdf">Final Report (February 2023)</a></li>
