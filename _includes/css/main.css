@@ -495,6 +495,15 @@ footer .footer-below {
     object-fit: cover;
 }
 
+.img-proj-centered {
+    margin: 0 auto;
+    max-width:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
 /* text centering for modal blocks */
 .centered {
     position: absolute;
