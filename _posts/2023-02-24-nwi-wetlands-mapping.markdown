@@ -14,7 +14,7 @@ ready: true
 more: true
 ---
 
-<p style="padding: 0 0em 1em 0em;">In April of 2022 started a year-long internship with the US Fish and Wildlife Service (USFWS), funded by the Student Conservation Association (SCA). I spent about two months up in Anchorage, AK, surveying wetlands in the field, then came home to Seattle to digitize them into the National Wetland Inventory (NWI) database.</p>
+<p style="padding: 0 0em 1em 0em;">In April of 2022, I started a year-long internship with the US Fish and Wildlife Service (USFWS), funded by the Student Conservation Association (SCA). I spent about two months up in Anchorage, AK, surveying wetlands in the field, then came home to Seattle to digitize them into the National Wetland Inventory (NWI) database.</p>
 <p></p>
 
 <figure>
