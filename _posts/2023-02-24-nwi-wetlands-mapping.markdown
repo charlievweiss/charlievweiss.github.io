@@ -3,7 +3,7 @@ layout: project
 modal-id: 20230224
 date: 2023-02-24
 img: nwi_mapping.png
-banner-img: nwi_mapping.png
+banner-img: /img/portfolio/nwi_mapping.png
 alt: image-alt
 project-date: April 2022 - Feb 2023
 org: USFWS, Student Conservation Association
