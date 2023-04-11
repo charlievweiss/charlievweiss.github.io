@@ -29,10 +29,10 @@ more: true
     <figcaption style="text-align:center">Whoa look! Sundews!</figcaption>
 </figure>
 
-<p style="padding: 1em 0em 1em 0em;">Alaskan wetlands aren't without their struggles, though. They really aren't kidding about the mosquitos-- on an average day, I could look down and count hundreds (hundreds!) of the blood-suckers on my clothes. I can now joyously gatekeep now that I'm back in Seattle: "Oh this? It's nothing! You should see Alaska." (I kid)</p>
+<p style="padding: 1em 0em 1em 0em;">Alaskan wetlands aren't without their struggles, though. They really aren't kidding about the mosquitos-- on an average day, I could look down and count hundreds (hundreds!) of the blood-suckers on my clothes. I can joyously gatekeep now that I'm back in Seattle: "Oh this? It's nothing! You should see Alaska." (I kid)</p>
 
 <figure>
-    <img class="responsive img-proj-centered" src="img/portfolio/nwi_wetlands_mapping/mosquitos.jpg">
+    <img style="width:50%; max-width:500px; height:auto;" src="img/portfolio/nwi_wetlands_mapping/mosquitos.jpg">
     <figcaption style="text-align:center">It was too easy to take this picture.</figcaption>
 </figure>
 
