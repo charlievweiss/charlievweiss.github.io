@@ -27,7 +27,7 @@ ready: true
 </figure>
 </div>
 
-<p style="padding: 1em 0em 1em 0em;">The most amazing part of volunteering is the familiarity I've gained with individual animals. I never thought I'd have a favorite sea urchin, but now I start every shift playing hide-and-seek with my favorite little guy. Well, urchin-guy hides, and I seek. Here's a picture from a particularly sneaky day, where my little fav is tucked away into a little hole hanging onto a bit of kelp. Urchin-guy has been holding onto that piece of kelp for a few weeks now.</p>
+<p style="padding: 1em 0em 1em 0em;">The most amazing part of volunteering is the familiarity I've gained with individual animals. I never thought I'd have a favorite sea urchin, but now I start every shift playing hide-and-seek with my favorite little guy. Well, urchin-guy hides, and I seek. Here's a picture from a particularly sneaky day, where my little friend is tucked away into a little hole hanging onto a bit of kelp. Urchin-guy has been holding onto that piece of kelp for a few weeks now.</p>
 
 <figure>
     <img class="responsive img-proj-centered" src="img/portfolio/aquarium/favorite_urchin.jpg">
