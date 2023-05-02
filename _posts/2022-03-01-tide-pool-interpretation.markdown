@@ -9,7 +9,7 @@ project-date: March 2022 - Present
 org: Seattle Aquarium
 loc: Seattle, WA
 categories: [ home, environment ]
-description: I volunteer as an interpreter at Seattle's indoor touch pool exhibits, encouraging empathy and curiosity in our squeamish visitors. Stop by for a sea urchin hug!
+description: I volunteer as an interpreter at the Seattle Aquarium's indoor touch pool exhibits, encouraging empathy and curiosity in our squeamish visitors. Stop by for a sea urchin hug!
 more: true
 ready: true
 ---
@@ -54,7 +54,7 @@ Another huge benefit of volunteering every week is seeing the animals through th
     <figcaption style="text-align:center">A chiton laying eggs!</figcaption>
 </figure>
 
-<p style="padding: 1em 0em 1em 0em;">There's always something going on with the slow-moving sea creatures if you have the patience to watch, and look. I've fallen in love with the way sea cucumbers wander and interact with other creatures, wiggling around like giant caterpillars with the most interesting mouth parts. I could watch them graze for hours (and I have).</p>
+<p style="padding: 1em 0em 1em 0em;">There's always something going on with the slow-moving sea creatures if you have the patience to watch. I've fallen in love with the way sea cucumbers wander and interact with other creatures, wiggling around like giant caterpillars with the most interesting mouth parts. I could watch them graze for hours (and I have).</p>
 
 <figure style="float: left; width:50%">
     <img class="responsive img-proj-box" src="img/portfolio/aquarium/sea_cucumber_mouth.jpg">
@@ -69,8 +69,8 @@ Another huge benefit of volunteering every week is seeing the animals through th
 <p style="padding: 1em 0em 1em 0em;">I strive to share my genuine attachment to these creatures with all the visitors who come by. So please visit, be inspired, and get yourself a little urchin hug!</p>
 
 <figure>
-    <img class="responsive img-proj-centered" src="img/portfolio/aquarium/scallop.jpg">
-    <figcaption style="text-align:center">A scallop carrying its own little ecosystem</figcaption>
+    <img class="responsive img-proj-centered" src="img/portfolio/aquarium/crab_eggs4.gif">
+    <figcaption style="text-align:center">A crab releasing her eggs in Spring 2023</figcaption>
 </figure>
 
 

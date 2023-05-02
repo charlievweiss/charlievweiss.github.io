@@ -12,7 +12,3 @@ description: As a crew member in the Washington Conservation Corps (WCC), I rest
 ready: true
 more: false
 ---
-
-<p style="padding: 0 0em 1em 0em;">
-
-</p>
