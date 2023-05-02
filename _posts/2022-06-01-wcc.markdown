@@ -10,4 +10,5 @@ loc: Renton, WA
 category: [ environment, home ]
 description: As a crew member in the Washington Conservation Corps (WCC), I restored native riparian and wetland ecosystems in King County, WA. I wrestled with Himalayan blackberry and English Ivy, personally planted over 4000 native trees, shrubs, and live stakes, and kept the team safe and healthy with daily safety talks.
 ready: true
+more: false
 ---
