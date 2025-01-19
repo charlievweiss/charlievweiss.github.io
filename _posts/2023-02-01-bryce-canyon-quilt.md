@@ -7,15 +7,16 @@ banner-img: false
 banner-color: f59b42
 alt: picture of quilt
 project-date: February(-ish) 2023
-categories: [ art ]
+categories: [ art, blog ]
 description: I made a free motion quilt based off of a snarky poster designed by Amber Share (@subparparks on Instagram)
 ready: true
 loc: false
 more: true
+excerpt_alt: true
 ---
 
 <figure style="float:left; padding: 0em 0em 5em 0em;">
-    <img style="width:50%; max-width:500px; height:auto;" src="img/portfolio/quilt_bryce_canyon/banner.jpg">
+    <img style="width:50%; max-width:500px; height:auto;" src="/img/portfolio/quilt_bryce_canyon/banner.jpg">
     <figcaption style="text-align:center">The full quilt</figcaption>
 </figure>
 
@@ -28,7 +29,7 @@ The inspiration for this quilt came from the <a href="https://www.nationalparktr
 </p>
 
 <figure>
-    <img style="width:40%; max-width:500px; height:auto;" src="img/portfolio/quilt_bryce_canyon/poster.png">
+    <img style="width:40%; max-width:500px; height:auto;" src="/img/portfolio/quilt_bryce_canyon/poster.png">
     <figcaption style="text-align:center">The inspiration poster by Amber Share (@subparparks)</figcaption>
 </figure>
 
@@ -38,11 +39,11 @@ Incorporating the many colors of the real canyon's layers gave me an opportunity
 
 <div class="row" style="clear:both;">
 <figure style="float:left; width: 50%;">
-    <img class="responsive img-proj-box" src="img/portfolio/quilt_bryce_canyon/real_canyon.jpg">
+    <img class="responsive img-proj-box" src="/img/portfolio/quilt_bryce_canyon/real_canyon.jpg">
     <figcaption style="text-align:center">Picture of the real canyon. Photo credit: <a href="https://www.utah.com/destinations/national-parks/bryce-canyon-national-park/?view=list&sort=qualityScore">Utah.com</a></figcaption>
 </figure>
 <figure style="float:right; width:50%;">
-    <img class="responsive img-proj-box" src="img/portfolio/quilt_bryce_canyon/closeup.jpg">
+    <img class="responsive img-proj-box" src="/img/portfolio/quilt_bryce_canyon/closeup.jpg">
     <figcaption style="text-align:center">Closeup of quilted textures</figcaption>
 </figure>
 </div>
@@ -53,11 +54,11 @@ This quilt features my first time quilting bubble letters. I matched the font to
 
 <div class="row" style="clear:both;">
 <figure style="float:left; width: 50%;">
-    <img class="responsive img-proj-box" src="img/portfolio/quilt_bryce_canyon/park_sign.jpg">
+    <img class="responsive img-proj-box" src="/img/portfolio/quilt_bryce_canyon/park_sign.jpg">
     <figcaption style="text-align:center">Picture of the park sign. Photo credit: <a href="https://www.nps.gov/places/000/bryce-canyon-park-entrance-sign.htm">National Park Service</a></figcaption>
 </figure>
 <figure style="float:right; width:50%;">
-    <img class="responsive img-proj-box" src="img/portfolio/quilt_bryce_canyon/words.jpg">
+    <img class="responsive img-proj-box" src="/img/portfolio/quilt_bryce_canyon/words.jpg">
     <figcaption style="text-align:center">Bubble letters on quilt</figcaption>
 </figure>
 </div>
