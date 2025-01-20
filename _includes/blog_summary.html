@@ -1,0 +1,29 @@
+<!-- Blog post list -->
+<section id="portfolio">
+    <div class="container portfolio-flex-grid">
+        <div>
+          {% for post in site.categories[page.tag] %}
+          {% if post.ready %}
+          <div>
+            <a href="{{ site.url}}{{ post.url }}" class="portfolio-link">
+                <div class="row blog_row">
+                    <figure style="float:left; width: 25%;">
+                        <img src="/img/portfolio/{{ post.img }}" class="responsive" alt="{{ post.alt }}">
+                    </figure>
+                    <div style="float:right; width:75%">
+                        <p><span style="text-transform:uppercase">{{ post.title }}</span> - <i>Posted {{ post.date | date: "%B %d, %Y"}}</i></p>
+                        {% if post.excerpt_alt %}
+                        <p>{{ post.description }}... <small>see more</small></p>
+                        {% else %}
+                        <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}... <small>see more</small></p>
+                        {% endif %}
+                    </div>
+                </div>
+            </a>
+          </div>
+          <p></p>
+          {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+</section>

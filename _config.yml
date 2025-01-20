@@ -5,7 +5,7 @@ url: https://charliesharman.com
 
 description: "Charlie Weiss Sharman portfolio website"
 keywords: "your keywords, separated by commas"
-skills: "Environment (Wetlands) - Engineering - Art"
+skills: "Diggin' holes (paid) and makin' art (unpaid)"
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -80,4 +80,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: "/:title:output_ext"
+      permalink: "/blog/:title:output_ext"
+
+#excerpt settings
+excerpt_separator: .

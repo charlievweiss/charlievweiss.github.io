@@ -1,0 +1,37 @@
+---
+---
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm -->
+<!-- XXX copied from Rowan's website, needs editing to work -->
+<html>
+{% include head_gallery.html %}
+
+<!-- <body class="w3-light-grey w3-content" style="max-width:1600px"> -->
+  <body id="page-top" class="index">
+
+   <!-- xxx regular page setup stuff -->
+  {% include nav_test.html %}
+  {% include header_small.html %}
+
+  <!-- !PAGE CONTENT! -->
+
+  <!-- {% if page.hasSlideshow1 == 1 %}
+  {% include slideshow1.html %}
+  {% endif %}
+
+  {% if page.hasSlideshow2 == 1 %}
+  {% include slideshow2.html %}
+  {% endif %} -->
+  <section>  
+    <div class="container">
+      {{content}}
+    </div>
+    </section>
+
+  <!-- xxx more regular page setup stuff -->
+  {% include footer.html %}
+  {% include modals.html %}
+  {% include js.html %}
+</body>
+
+</html>

@@ -8,7 +8,7 @@ alt: image-alt
 project-date: April 2022 - Feb 2023
 org: USFWS, Student Conservation Association
 loc: Anchorage, AK (field) and Seattle, WA (remote)
-category: [ environment, home ]
+category: [ environment, home, blog ]
 description: Updated all wetland boundaries and classifications on Joint Base Elmendorf-Richardson (JBER) for the National Wetlands Inventory (NWI) using ArcGIS Pro. Available on the <a href="https://fwsprimary.wim.usgs.gov/wetlands/apps/wetlands-mapper/">NWI Wetlands Mapper</a> by end of 2023.
 ready: true
 more: true
@@ -18,21 +18,21 @@ more: true
 <p></p>
 
 <figure>
-    <img class="responsive img-proj-centered" src="img/portfolio/nwi_wetlands_mapping/me-and-the-plants.jpg">
+    <img class="responsive img-proj-centered" src="/img/portfolio/nwi_wetlands_mapping/me-and-the-plants.jpg">
     <figcaption style="text-align:center">Me and my alpine plant friends.</figcaption>
 </figure>
 
 <p style="padding: 1em 0em 1em 0em;">In the field I got to explore a ton of incredible wetland ecosystems, many of which I had never seen before! Skipping through the alpine on dense mats of stunted shrubs is one of my most treasured memories. And I'll never forget the burst of excitement I felt seeing my first wild sundew!</p>
 
 <figure>
-    <img class="responsive img-proj-centered" src="img/portfolio/nwi_wetlands_mapping/sundews.jpg">
+    <img class="responsive img-proj-centered" src="/img/portfolio/nwi_wetlands_mapping/sundews.jpg">
     <figcaption style="text-align:center">Whoa look! Sundews!</figcaption>
 </figure>
 
 <p style="padding: 1em 0em 1em 0em;">Alaskan wetlands aren't without their struggles, though. They really aren't kidding about the mosquitos-- on an average day, I could look down and count hundreds (hundreds!) of the blood-suckers on my clothes. I can joyously gatekeep now that I'm back in Seattle: "Oh this? It's nothing! You should see Alaska." (I kid)</p>
 
 <figure>
-    <img style="width:50%; max-width:500px; height:auto;" src="img/portfolio/nwi_wetlands_mapping/mosquitos.jpg">
+    <img style="width:50%; max-width:500px; height:auto;" src="/img/portfolio/nwi_wetlands_mapping/mosquitos.jpg">
     <figcaption style="text-align:center">It was too easy to take this picture.</figcaption>
 </figure>
 

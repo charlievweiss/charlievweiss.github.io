@@ -211,6 +211,15 @@ section.success {
     max-width: 400px;
 }
 
+/* CWS test - blog link block
+#portfolio .portfolio-item .blog-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: aqua;
+} */
+
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
@@ -552,3 +561,8 @@ figure {
   img.scaled {
     width: 100%;
   }
+
+.blog_row {
+    border-style: dotted;
+    color: black;
+}
