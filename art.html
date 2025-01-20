@@ -1,8 +1,257 @@
 ---
-layout: page
+layout: gallery_layout
 permalink: /art/
 title: "Art"
 description: "Jack of all profitless trades..."
 order: 4
 tag: art
 ---
+
+<!-- Copy in the other projects page when ready -->
+
+<!-- First Photo Grid-->
+<div class="w3-container">
+    <!-- <h3>Less Well-Documented and Smaller Personal Projects</h3>
+  </div> -->
+
+  <!-- =============== Gallery of all things ==================== -->
+
+  
+  <div class="w3-row-padding"> <!--Begin Row 1-->
+
+    <!-- ==================== 2024_12_xmasgifts ==================== -->
+    <!-- <div class="w3-third w3-container w3-margin-bottom w3-hover-teal" onclick="openModal('2024_12_xmasgiftsModal')">
+        <div>
+            <img src="/img/art_gallery/2024_12_xmasgifts.jpg" style="width:100%">
+            <p><b>Christmas gifts of 2024</b></p>
+            <p>Bags galore! Plus some clever potholders and a first crack at hexaflexagons.</p>
+        </div>
+    
+        </div>
+  
+    <div id="2024_12_xmasgiftsModal" class="modal" onclick="checkBackgroundClick('2024_12_xmasgifts')">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides" name="treehouseSlide">
+                <img src="/img/portfolio/aquarium/chiton_eggs.jpg">
+            </div>
+    
+            <div class="mySlides" name="treehouseSlide">
+            <img src="/img/portfolio/aquarium/chiton_eggs.jpg">
+            </div>
+    
+            <div class="mySlides" name="treehouseSlide">
+            <img src="/img/portfolio/aquarium/chiton_eggs.jpg">
+            </div>
+    
+    
+            <a class="prev" onclick="plusSlides(-1, 'treehouseSlide', 'treehouseDemo')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'treehouseSlide', 'treehouseDemo')">&#10095;</a>
+    
+    
+            <div class="caption-container">
+            <p id="caption"></p>
+            </div>
+    
+    
+            <div class="column3">
+            <img class="demo" name="treehouseDemo" src="/img/portfolio/aquarium/chiton_eggs.jpg" onclick="currentSlide(1, 'treehouseSlide', 'treehouseDemo')" alt="">
+            </div>
+    
+            <div class="column3">
+            <img class="demo" name="treehouseDemo" src="/img/portfolio/aquarium/chiton_eggs.jpg" onclick="currentSlide(2, 'treehouseSlide', 'treehouseDemo')" alt="">
+            </div>
+    
+            <div class="column3">
+            <img class="demo" name="treehouseDemo" src="/img/portfolio/aquarium/chiton_eggs.jpg" onclick="currentSlide(3, 'treehouseSlide', 'treehouseDemo')" alt="">
+            </div>
+        </div>
+    </div> -->
+
+    <!-- ====================2024_12_xmasgifts==================== -->
+    <div class="w3-third w3-container w3-margin-bottom w3-hover-teal" onclick="openModal('treehouseModal','treehouseSlide', 'treehouseDemo')">
+      <div>
+        <!-- <img src="/img/art_gallery/2024_12_xmasgifts.jpg" style="width:100%; aspect-ratio: 1 / 1; object-fit: cover"> -->
+        <img class="square" src="/img/art_gallery/2024_12_xmasgifts.jpg">
+        <p><b>Christmas Gifts of 2024</b></p>
+        <p>Bags galore! Plus some clever potholders and a first crack at hexaflexagons.</p>
+      </div>
+  
+    </div>
+  
+    <div id="treehouseModal" class="modal" onclick="checkBackgroundClick('treehouseModal')">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+  
+        <div class="mySlides" name="treehouseSlide">
+          <img src="/img/art_gallery/2024_12_xmasgifts.jpg">
+        </div>
+  
+        <!-- <div class="mySlides" name="treehouseSlide">
+          <img src="/img/portfolio/aquarium/chiton_eggs.jpg">
+        </div>
+  
+        <div class="mySlides" name="treehouseSlide">
+          <img src="/img/portfolio/aquarium/chiton_eggs.jpg">
+        </div> -->
+  
+<!--   
+        <a class="prev" onclick="plusSlides(-1, 'treehouseSlide', 'treehouseDemo')">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 'treehouseSlide', 'treehouseDemo')">&#10095;</a> -->
+  
+  
+        <div class="caption-container">
+          <p id="caption">4 quilted bags, 4 potholders (2 are wrapped), and 2 hexaflexagons.</p>
+        </div>
+  
+  
+        <!-- <div class="column3">
+          <img class="demo" name="treehouseDemo" src="/img/portfolio/aquarium/chiton_eggs.jpg" onclick="currentSlide(1, 'treehouseSlide', 'treehouseDemo')" alt="">
+        </div>
+  
+        <div class="column3">
+          <img class="demo" name="treehouseDemo" src="/img/portfolio/aquarium/chiton_eggs.jpg" onclick="currentSlide(2, 'treehouseSlide', 'treehouseDemo')" alt="">
+        </div>
+  
+        <div class="column3">
+          <img class="demo" name="treehouseDemo" src="/img/portfolio/aquarium/chiton_eggs.jpg" onclick="currentSlide(3, 'treehouseSlide', 'treehouseDemo')" alt=""> -->
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <!-- ====================Loft==================== -->
+    <div class="w3-third w3-container w3-margin-bottom w3-hover-teal" onclick="openModal('treehouseModal','treehouseSlide', 'treehouseDemo')">
+        <div>
+        <img src="/img/portfolio/beautiful_crab.jpg" style="width:100%">
+        <p><b>Lofted Dorm Room</b></p>
+        <p>My roomate and I collaborated with another roomate pair to convert our room into a two-level work space and media center, with beds in the other room.</p>
+        </div>
+
+    </div>
+
+  </div> <!--End Row 1-->
+
+  <script>
+
+    var slideIndex = 1;
+    // Open the Modal
+    function openModal(modalID, projectSlides, projectDemos) {
+      document.getElementById(modalID).style.display = "block";
+      slideIndex = 1;
+      showSlides(1, projectSlides,projectDemos);
+      var proj = modalID;
+      proj = proj.substring(0,proj.length-5);
+      ga('gtag_UA_111601381_1.send', 'event', 'OtherProjects', 'click', proj);
+    }
+    
+    // Close the Modal
+    function closeModal() {
+      modals = document.getElementsByClassName("modal");
+      for (i = 0; i < modals.length; i++) {
+        modals[i].style.display = "none";
+      }
+    }
+    
+    // Next/previous controls
+    function plusSlides(n, projectSlides, projectDemos) {
+      showSlides(slideIndex += n, projectSlides, projectDemos);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n, projectSlides, projectDemos) {
+      showSlides(slideIndex = n, projectSlides, projectDemos);
+    }
+    
+    function showSlides(n, projectSlides, projectDemos) {
+      console.log("It fuckin works")
+      var i;
+      var slides = document.getElementsByName(projectSlides);
+      var dots = document.getElementsByName(projectDemos);
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    
+    function checkBackgroundClick(modalID) {
+      if (!(event.target).closest(".modal-content")) {
+        closeModal();
+      }
+    }
+    
+    </script>
+    
+    <!-- ====================Template==================== -->
+    <!-- <div class="w3-third w3-container w3-margin-bottom w3-hover-teal" onclick="openModal('ProjectModal', 'ProjectSlide', 'ProjectDemo')">
+      <div>
+        <img src="./images/Project/photo1.jpg" style="width:100%">
+        <p><b>Proj Name</b></p>
+        <p>Description.</p>
+      </div>
+    
+    </div>
+    
+    <div id="ProjectModal" class="modal" onclick="checkBackgroundClick('ProjectModal')">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+    
+        <div class="mySlides" name="ProjectSlide">
+          <img src="./images/Project/photo1.jpg">
+        </div>
+    
+        <div class="mySlides" name="ProjectSlide">
+          <img src="./images/Project/photo2.jpg">
+        </div>
+    
+        <div class="mySlides" name="ProjectSlide">
+          <img src="./images/Project/photo3.jpg">
+        </div>
+    
+        <div class="mySlides" name="ProjectSlide">
+          <img src="./images/Project/photo4.jpg">
+        </div>
+    
+        <div class="mySlides" name="ProjectSlide">
+          <img src="./images/Project/photo5.jpg">
+        </div>
+    
+    
+        <a class="prev" onclick="plusSlides(-1, 'ProjectSlide', 'ProjectDemo')">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 'ProjectSlide', 'ProjectDemo')">&#10095;</a>
+    
+    
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+    
+    
+        <div class="columnN">
+          <img class="demo" name="ProjectDemo" src="./images/Project/photo1.jpg" onclick="currentSlide(1, 'ProjectSlide', 'ProjectDemo')" alt="">
+        </div>
+    
+        <div class="columnN">
+          <img class="demo" name="ProjectDemo" src="./images/Project/photo2.jpg" onclick="currentSlide(2, 'ProjectSlide', 'ProjectDemo')" alt="">
+        </div>
+    
+        <div class="columnN">
+          <img class="demo" name="ProjectDemo" src="./images/Project/photo3.jpg" onclick="currentSlide(3, 'ProjectSlide', 'ProjectDemo')" alt="">
+        </div>
+    
+        <div class="columnN">
+          <img class="demo" name="ProjectDemo" src="./images/Project/photo4.jpg" onclick="currentSlide(4, 'ProjectSlide', 'ProjectDemo')" alt="">
+        </div>
+    
+        <div class="columnN">
+          <img class="demo" name="ProjectDemo" src="./images/Project/photo5.jpg" onclick="currentSlide(5, 'ProjectSlide', 'ProjectDemo')" alt="">
+        </div>
+    
+      </div>
+    </div> -->

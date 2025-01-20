@@ -13,10 +13,52 @@ tag: gallery
 <div class="w3-container">
     <!-- <h3>Less Well-Documented and Smaller Personal Projects</h3>
   </div> -->
+
+  <!-- =============== Gallery of all things ==================== -->
+
   
   <div class="w3-row-padding"> <!--Begin Row 1-->
   
-  
+    <div id="treehouseModal" class="modal" onclick="checkBackgroundClick('treehouseModal')">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+    
+            <div class="mySlides" name="treehouseSlide">
+            <img src="/img/portfolio/aquarium/chiton_eggs.jpg">
+            </div>
+    
+            <div class="mySlides" name="treehouseSlide">
+            <img src="/img/portfolio/aquarium/chiton_eggs.jpg">
+            </div>
+    
+            <div class="mySlides" name="treehouseSlide">
+            <img src="/img/portfolio/aquarium/chiton_eggs.jpg">
+            </div>
+    
+    
+            <a class="prev" onclick="plusSlides(-1, 'treehouseSlide', 'treehouseDemo')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'treehouseSlide', 'treehouseDemo')">&#10095;</a>
+    
+    
+            <div class="caption-container">
+            <p id="caption"></p>
+            </div>
+    
+    
+            <div class="column3">
+            <img class="demo" name="treehouseDemo" src="/img/portfolio/aquarium/chiton_eggs.jpg" onclick="currentSlide(1, 'treehouseSlide', 'treehouseDemo')" alt="">
+            </div>
+    
+            <div class="column3">
+            <img class="demo" name="treehouseDemo" src="/img/portfolio/aquarium/chiton_eggs.jpg" onclick="currentSlide(2, 'treehouseSlide', 'treehouseDemo')" alt="">
+            </div>
+    
+            <div class="column3">
+            <img class="demo" name="treehouseDemo" src="/img/portfolio/aquarium/chiton_eggs.jpg" onclick="currentSlide(3, 'treehouseSlide', 'treehouseDemo')" alt="">
+            </div>
+        </div>
+    </div>
+
     <!-- ====================Treehouse==================== -->
     <div class="w3-third w3-container w3-margin-bottom w3-hover-teal" onclick="openModal('treehouseModal','treehouseSlide', 'treehouseDemo')">
       <div>
@@ -66,7 +108,17 @@ tag: gallery
         </div>
       </div>
     </div>
-  
+
+    <!-- ====================Loft==================== -->
+    <div class="w3-third w3-container w3-margin-bottom w3-hover-teal" onclick="openModal('treehouseModal','treehouseSlide', 'treehouseDemo')">
+        <div>
+        <img src="/img/portfolio/beautiful_crab.jpg" style="width:100%">
+        <p><b>Lofted Dorm Room</b></p>
+        <p>My roomate and I collaborated with another roomate pair to convert our room into a two-level work space and media center, with beds in the other room.</p>
+        </div>
+
+    </div>
+
   </div> <!--End Row 1-->
 
   <script>
