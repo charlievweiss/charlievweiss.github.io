@@ -13,7 +13,7 @@ jobs:
   deploy:
     name: Deploy
     # runs-on: ubuntu-latest
-    # hack to get around update TODO: fix for real
+    # hack to get around update TODO: fix for real (https://talk.jekyllrb.com/t/building-error-on-github-actions/9471)
     runs-on: ubuntu-22.04
 
     permissions:
