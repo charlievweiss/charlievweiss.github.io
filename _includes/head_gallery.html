@@ -10,6 +10,8 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
   
+    <!-- xxx trying this here, seeing if modals get overrided: They do, don't merge with master until fixed -->
+    <link rel="stylesheet" href="/Template_files/w3.css">
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ " /style.css" }}">
   
@@ -32,24 +34,8 @@
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
-    <link rel="stylesheet" href="/Template_files/w3.css">
 
-    <!-- <style>
-
-    body, h1, h2, h3, h4, h5, h6 {font-family: "Raleway", sans-serif}
-
-    {% if page.hasSlideshow1 == 1 %}
-    .mySlides1 {display: none;}
-    {% endif %}
-
-    {% if page.hasSlideshow2 == 1 %}
-    .mySlides2 {display: none;}
-    {% endif %}
-
-    {% if page.hasDropdown == 1 %}
-    {% include dropdown.html %}
-    {% endif %}
-
-    </style> -->
+    <!-- xxx trying this above -->
+    <!-- <link rel="stylesheet" href="/Template_files/w3.css"> -->
   </head>
   

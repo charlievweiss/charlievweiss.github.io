@@ -1,0 +1,97 @@
+<!-- ###### STATUS ######## -->
+ <!-- 
+- changed modal in w3 to w3-modal... who knows what's being inherited in these modals. That also definitely broke the regular art page, so beware.
+- also added main.css to head_gallery.html, so beware of that too. ^^
+ - got the slide nums to update, but the slides length is very incorrect (default 144?)
+ - need to get pictures to show up when modal opens. Dunno how to do that yet. (search "xxx") 
+ - eventually I'll need to update this so the modals are made from project folders. Suspect it will require setting the folder location in the page.md
+ -->
+
+
+<!-- Portfolio Modals -->
+{% for post in site.posts %}
+<!-- ======================= NEW MODAL ========================== -->
+<!-- <div class="portfolio-modal modal fade" id="galleryModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true" onclick="openModal2('galleryModal-{{ post.modal-id }}','test_Slide','test_Demo')"> -->
+<div class="portfolio-modal modal fade" id="galleryModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- <div class="w3-third w3-container w3-margin-bottom w3-hover-teal" id="galleryModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true" onclick="openModal('test', 'test_Slide', 'test_Demo')"> -->
+  <!-- <div class="modal-content" onclick="openModal2('galleryModal-{{ post.modal-id }}','test_Slide','test_Demo')"> -->
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body" onload="showSlides(1, 'test_Slide', 'test_Demo')"> <!-- xxx trying show slides here -->
+            <h2>{{ post.title }}</h2>
+            <row>
+              <p>
+                  <a onclick="plusSlides(-1, 'test_Slide', 'test_Demo')">&lt&ltprev</a>
+                  &nbsp;&nbsp;&nbsp;
+                  (
+                  <span id="slidenum"></span>
+                  /
+                  <span id="slidetotal"></span>
+                  )
+                  &nbsp;&nbsp;&nbsp;
+                  <a onclick="plusSlides(1, 'test_Slide', 'test_Demo')">next&gt&gt</a>
+              </p>
+            </row>
+             <!-- ========== IMAGES ========== -->
+            <div>
+              <!-- ============== ARROWS ================== -->
+              
+
+              {% for image in site.static_files %}
+                {% if image.path contains '/img/art_gallery' %}
+                    <!-- slide -->
+                    <div class="mySlides" name="test_Slide">
+                      <img src="{{ site.baseurl }}{{ image.path }}">
+                    </div>
+                    <!-- demo: does something really bizarre if placed here -->
+                    <!-- <div class="column3">
+                      <img class="demo" name="test_Demo" src="{{ site.baseurl }}{{ image.path }}" onclick="currentSlide(1, 'test_Slide', 'test_Demo')" alt="">
+                    </div> -->
+                {% endif %}
+              {% endfor %}
+              
+              
+            </div>
+            <!-- ============ IMAGE END ============ -->
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% endif %}
+            {% if post.more %}
+            <p><a href="{{ site.url}}{{ post.url }}">Read the story here!</a></p>
+            {% else %}
+            <p></p>
+            {% endif %}
+            <ul class="list-inline item-details">
+              {% if post.org %}
+              <li>Organization:
+                <strong>{{ post.org }}</strong>
+              </li>
+              {% endif %}
+              {% if post.project-date %}
+              <li>Date:
+                <strong>{{ post.project-date }}</strong>
+              </li>
+              {% endif %}
+              {% if post.loc %}
+              <li>Location:
+                <strong>{{ post.loc }}</strong>
+              </li>
+              {% endif %}
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
