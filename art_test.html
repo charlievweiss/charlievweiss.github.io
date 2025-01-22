@@ -9,15 +9,15 @@ tag: art_test
 
 <!-- Portfolio Grid (Tagged) Section -->
 <section id="portfolio">
-  <div class="w3-container">
-    <div class="w3-row-padding">
+  <div class="container portfolio-flex-grid">
+    <div class="portfolio-flex-row">
       <!-- Make post for every post of tag (see _posts folder) -->
       {% for post in site.categories[page.tag] %}
       {% if post.ready %}
       <!-- <div class="portfolio-flex-item portfolio-item"> -->
-      <div class="w3-third w3-container w3-margin-bottom w3-hover-teal">
+      <div class="portfolio-flex-item portfolio-item">
         <a href="#galleryModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <img src="/img/portfolio/{{ post.img }}" class="square" alt="{{ post.alt }}">
+          <img src="/img/portfolio/{{ post.img }}" class="responsive" alt="{{ post.alt }}">
           <!-- Post title and date, below image -->
           <div>
             <p>{{ post.title }}</p>

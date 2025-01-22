@@ -25,12 +25,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body" onload="showSlides(1, 'test_Slide', 'test_Demo')"> <!-- xxx trying show slides here -->
+          <div class="modal-body"> <!-- xxx trying show slides here -->
             <h2>{{ post.title }}</h2>
             <row>
               <p>
                 <!-- ============== ARROWS ================== -->
-                  <a onclick="plusSlides(-1, 'test_Slide', 'test_Demo')">&lt&ltprev</a>
+                  <a onclick="updateSlide(-1)">&lt&ltprev</a>
                   &nbsp;&nbsp;&nbsp;
                   (
                   <span id="slidenum"></span>
@@ -38,26 +38,15 @@
                   <span id="slidetotal"></span>
                   )
                   &nbsp;&nbsp;&nbsp;
-                  <a onclick="plusSlides(1, 'test_Slide', 'test_Demo')">next&gt&gt</a>
+                  <a onclick="updateSlide(1)">next&gt&gt</a>
               </p>
             </row>
              <!-- ========== IMAGES ========== -->
             <div>
-                        
-
-              {% for image in site.static_files %}
-                {% if image.path contains '/img/art_gallery' %}
-                    <!-- slide -->
-                    <div class="mySlides" name="test_Slide">
-                      <img src="{{ site.baseurl }}{{ image.path }}">
-                    </div>
-                    <!-- demo: does something really bizarre if placed here -->
-                    <!-- <div class="column3">
-                      <img class="demo" name="test_Demo" src="{{ site.baseurl }}{{ image.path }}" onclick="currentSlide(1, 'test_Slide', 'test_Demo')" alt="">
-                    </div> -->
-                {% endif %}
-              {% endfor %}
-              
+                
+            <div>                    
+              <img src="" class="responsive img-centered" id="shownImage">
+            </div>
               
             </div>
             <!-- ============ IMAGE END ============ -->
