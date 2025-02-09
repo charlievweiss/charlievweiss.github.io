@@ -832,6 +832,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   // MODAL CLASS DEFINITION
   // ======================
 
+  // modal created:
   var Modal = function (element, options) {
     this.options        = options
     this.$body          = $(document.body)
@@ -858,10 +859,13 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
   Modal.prototype.toggle = function (_relatedTarget) {
+    console.log("in modal.prototype.toggle")
     return this.isShown ? this.hide() : this.show(_relatedTarget)
   }
 
   Modal.prototype.show = function (_relatedTarget) {
+    console.log("in modal.prototype.show")
+    // xx console log doesn't work, but this function gets called to show the modal.
     var that = this
     var e    = $.Event('show.bs.modal', { relatedTarget: _relatedTarget })
 
@@ -913,6 +917,8 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
   Modal.prototype.hide = function (e) {
+    console.log("in modal.prototype.hide")
+    // xx log doesn't work, but this function gets called to hide the modal
     if (e) e.preventDefault()
 
     e = $.Event('hide.bs.modal')
@@ -943,6 +949,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
   Modal.prototype.enforceFocus = function () {
+    console.log("in modal enforceFocus")
     $(document)
       .off('focusin.bs.modal') // guard against infinite focus loop
       .on('focusin.bs.modal', $.proxy(function (e) {
@@ -953,6 +960,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
   Modal.prototype.escape = function () {
+    console.log("in modal escape")
     if (this.isShown && this.options.keyboard) {
       this.$element.on('keyup.dismiss.bs.modal', $.proxy(function (e) {
         e.which == 27 && this.hide()
@@ -963,6 +971,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
   Modal.prototype.hideModal = function () {
+    console.log("in modal hideModal")
     var that = this
     this.$element.hide()
     this.backdrop(function () {
@@ -971,11 +980,13 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
   Modal.prototype.removeBackdrop = function () {
+    console.log("in modal removeBackdrop")
     this.$backdrop && this.$backdrop.remove()
     this.$backdrop = null
   }
 
   Modal.prototype.backdrop = function (callback) {
+    console.log("in modal backdrop")
     var that = this
     var animate = this.$element.hasClass('fade') ? 'fade' : ''
 
@@ -1023,20 +1034,24 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
   Modal.prototype.checkScrollbar = function () {
+    console.log("in modal checkscrollbar")
     if (document.body.clientWidth >= window.innerWidth) return
     this.scrollbarWidth = this.scrollbarWidth || this.measureScrollbar()
   }
 
   Modal.prototype.setScrollbar = function () {
+    console.log("in modal setscrollbar")
     var bodyPad = parseInt((this.$body.css('padding-right') || 0), 10)
     if (this.scrollbarWidth) this.$body.css('padding-right', bodyPad + this.scrollbarWidth)
   }
 
   Modal.prototype.resetScrollbar = function () {
+    console.log("in modal resetScrollbar")
     this.$body.css('padding-right', '')
   }
 
   Modal.prototype.measureScrollbar = function () { // thx walsh
+    console.log("in modal measurescrollbar")
     var scrollDiv = document.createElement('div')
     scrollDiv.className = 'modal-scrollbar-measure'
     this.$body.append(scrollDiv)
@@ -1080,6 +1095,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   // ==============
 
   $(document).on('click.bs.modal.data-api', '[data-toggle="modal"]', function (e) {
+    console.log("in on click bs modal thing")
     var $this   = $(this)
     var href    = $this.attr('href')
     var $target = $($this.attr('data-target') || (href && href.replace(/.*(?=#[^\s]+$)/, ''))) // strip for ie7

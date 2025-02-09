@@ -1,7 +1,7 @@
 ---
 layout: project
-modal-id: Wholegal
-date: 2025-01-20
+modal-id: Wholegal2
+date: 2025-01-21
 img: submarine.png
 alt: image-alt
 project-date: Month YYYY
@@ -11,5 +11,5 @@ description: description
 ready: true
 loc: false
 more: false
-img_dir: test_string
+img_dir: "blank"
 ---

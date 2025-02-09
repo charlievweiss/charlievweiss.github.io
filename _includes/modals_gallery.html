@@ -11,10 +11,7 @@
 <!-- Portfolio Modals -->
 {% for post in site.posts %}
 <!-- ======================= NEW MODAL ========================== -->
-<!-- <div class="portfolio-modal modal fade" id="galleryModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true" onclick="openModal2('galleryModal-{{ post.modal-id }}','test_Slide','test_Demo')"> -->
 <div class="portfolio-modal modal fade" id="galleryModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-<!-- <div class="w3-third w3-container w3-margin-bottom w3-hover-teal" id="galleryModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true" onclick="openModal('test', 'test_Slide', 'test_Demo')"> -->
-  <!-- <div class="modal-content" onclick="openModal2('galleryModal-{{ post.modal-id }}','test_Slide','test_Demo')"> -->
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
@@ -29,27 +26,23 @@
             <h2>{{ post.title }}</h2>
             <row>
               <p>
-                <!-- ============== ARROWS ================== -->
+                <!-- ============== IMAGE NAVIGATION ================== -->
+                 <a onclick="clickMe()">CLICK ME</a>
                   <a onclick="updateSlide(-1)">&lt&ltprev</a>
                   &nbsp;&nbsp;&nbsp;
                   (
-                  <span id="slidenum"></span>
+                  <span id="{{ post.modal-id }}-slidenum"></span>
                   /
-                  <span id="slidetotal"></span>
+                  <span id="{{ post.modal-id }}-slidetotal"></span>
                   )
                   &nbsp;&nbsp;&nbsp;
                   <a onclick="updateSlide(1)">next&gt&gt</a>
               </p>
             </row>
-             <!-- ========== IMAGES ========== -->
-            <div>
-                
             <div>                    
-              <img src="" class="responsive img-centered" id="shownImage">
+              <img src="" class="responsive img-centered" id="{{ post.modal-id }}-shownImage">
             </div>
-              
-            </div>
-            <!-- ============ IMAGE END ============ -->
+            <!-- ============ TYPICAL DESCRIPTION STUFF ============ -->
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
@@ -84,3 +77,54 @@
   </div>
 </div>
 {% endfor %}
+
+<script>
+
+  var slideIndex = 1;
+  var imagePaths = ["/img/art_gallery/2023_01_PinQuilt.jpg","/img/art_gallery/2023_01_pinquilt2.jpg"];
+  console.log("In the gallery_layout script");
+
+  // Psuedocode:
+  // - 2d array of [modal image locs][modal image path]
+  function updateGalleryData(test) {
+    image_dir = test.toString();
+    console.log("in updateGalleryData");
+    // var image_dir = ; 
+    console.log("variable passed:"+test);
+  }
+
+  function updateSlide(n) {
+    // update slide based on next (n=1) or previous (n=-1)
+    console.log("in updateSlide. Active modal id is ",activeModalID);
+    slideIndex += n; 
+    var shownImageID = activeModalID+"-shownImage";
+    var slideTotalID = activeModalID+"-slidetotal";
+    var slideNumID = activeModalID+"-slidenum";
+    console.log("Slide index: "+slideIndex)
+    document.getElementById(shownImageID).src = imagePaths[slideIndex];
+    document.getElementById(slideTotalID).innerHTML = imagePaths.length; //make slidelength into text
+    document.getElementById(slideNumID).innerHTML = slideIndex;
+  }
+
+  function resetIndex() {
+    slideIndex = 1; // need to call when modal closed
+  }
+
+  function clickedModal() {
+    console.log("clicked on modal!");
+  }
+
+  function clickMe() {
+    console.log("Click me! ActiveModalID: ",typeof(activeModalID));
+    var shownImageID = activeModalID+"-shownImage";
+    console.log("Shown imageID: ",shownImageID);
+  }
+
+//   document.getElementById('myLink').addEventListener('click', function(event) {
+//     event.preventDefault(); // Prevents the default action of the link
+//     var clickedHref = this.getAttribute('data-value'); // Do something with the clicked value
+//     console.log('Clicked value:', clickedHref);
+// });
+
+</script>
+</html>

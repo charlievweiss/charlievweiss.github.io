@@ -6,6 +6,9 @@ description: "Jack of all profitless trades..."
 order: 4
 tag: art_test
 ---
+<script>
+  var activeModalID = "";
+</script>
 
 <!-- Portfolio Grid (Tagged) Section -->
 <section id="portfolio">
@@ -16,7 +19,19 @@ tag: art_test
       {% if post.ready %}
       <!-- <div class="portfolio-flex-item portfolio-item"> -->
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#galleryModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <!-- ======= Links to modal -- activate on click events when modal opened =============== -->
+        <a href="#galleryModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" id="link to {{ post.modal-id }}" data-value="{{ post.modal-id }}">
+          <!-- trying something:  -->
+          <script>
+            // update active modal ID (defined above)
+            document.getElementById("link to {{ post.modal-id }}").addEventListener('click', function(event) {
+                event.preventDefault(); // Prevents the default action of the link
+                var clickedHref = this.getAttribute('data-value'); // Do something with the clicked value
+                activeModalID = clickedHref;
+                console.log('Clicked value:', clickedHref);
+                console.log("Active modal id: ",activeModalID);
+            });
+          </script>
           <img src="/img/portfolio/{{ post.img }}" class="responsive" alt="{{ post.alt }}">
           <!-- Post title and date, below image -->
           <div>
