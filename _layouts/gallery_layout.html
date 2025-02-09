@@ -27,26 +27,3 @@
   {% include js.html %}
 </body>
 
-<script>
-
-  var slideIndex = 1;
-  var imagePaths = ["/img/art_gallery/2023_01_PinQuilt.jpg","/img/art_gallery/2023_01_pinquilt2.jpg"];
-  console.log("In the gallery_layout script")
-
-  // Psuedocode:
-  // - 2d array of [modal image locs][modal image path]
-
-  function updateSlide(n) {
-    // update slide based on next (n=1) or previous (n=-1)
-    slideIndex += n; 
-    document.getElementById("shownImage").src = imagePaths[slideIndex];
-    document.getElementById("slidetotal").innerHTML = imagePaths.length; //make slidelength into text
-    document.getElementById("slidenum").innerHTML = slideIndex;
-  }
-
-  function resetIndex() {
-    slideIndex = 1; // need to call when modal closed
-  }
-  
-  </script>
-</html>

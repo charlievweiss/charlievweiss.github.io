@@ -7,7 +7,11 @@ order: 4
 tag: art_test
 ---
 <script>
+  // Set up variables for "active" (most recently clicked) modal
   var activeModalID = "";
+  var activeImages = [];
+  var numImages = 0;
+  var currentImage = 0;
 </script>
 
 <!-- Portfolio Grid (Tagged) Section -->
@@ -20,16 +24,23 @@ tag: art_test
       <!-- <div class="portfolio-flex-item portfolio-item"> -->
       <div class="portfolio-flex-item portfolio-item">
         <!-- ======= Links to modal -- activate on click events when modal opened =============== -->
-        <a href="#galleryModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" id="link to {{ post.modal-id }}" data-value="{{ post.modal-id }}">
-          <!-- trying something:  -->
+        <a href="#galleryModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" id="link to {{ post.modal-id }}" modal-value="{{ post.modal-id }}" modal-images="{{ post.active_images }}">
+          <!-- This script updates the active modal variables! It works with updateSlide in modals_gallery.html -->
+           <!-- TODO: fix numbering and show image when modal first opens -->
+            <!-- currently only whole-gallery copy.md is in play for modals -->
           <script>
-            // update active modal ID (defined above)
+            // update active modal attributes (defined above)
             document.getElementById("link to {{ post.modal-id }}").addEventListener('click', function(event) {
                 event.preventDefault(); // Prevents the default action of the link
-                var clickedHref = this.getAttribute('data-value'); // Do something with the clicked value
-                activeModalID = clickedHref;
-                console.log('Clicked value:', clickedHref);
-                console.log("Active modal id: ",activeModalID);
+                var clickedHref = this.getAttribute('modal-value'); // Do something with the clicked value
+                currentImage = 0; // reset current image
+                activeModalID = clickedHref; // a bit redudant, merge with line above
+                activeImages = this.getAttribute('modal-images').split(',');
+                numImages = activeImages.length;
+                console.log(activeImages,"type:",typeof(activeImages));
+
+                // console.log('Clicked value:', clickedHref);
+                // console.log("Active modal id: ",activeModalID);
             });
           </script>
           <img src="/img/portfolio/{{ post.img }}" class="responsive" alt="{{ post.alt }}">

@@ -27,7 +27,6 @@
             <row>
               <p>
                 <!-- ============== IMAGE NAVIGATION ================== -->
-                 <a onclick="clickMe()">CLICK ME</a>
                   <a onclick="updateSlide(-1)">&lt&ltprev</a>
                   &nbsp;&nbsp;&nbsp;
                   (
@@ -79,11 +78,6 @@
 {% endfor %}
 
 <script>
-
-  var slideIndex = 1;
-  var imagePaths = ["/img/art_gallery/2023_01_PinQuilt.jpg","/img/art_gallery/2023_01_pinquilt2.jpg"];
-  console.log("In the gallery_layout script");
-
   // Psuedocode:
   // - 2d array of [modal image locs][modal image path]
   function updateGalleryData(test) {
@@ -96,28 +90,17 @@
   function updateSlide(n) {
     // update slide based on next (n=1) or previous (n=-1)
     console.log("in updateSlide. Active modal id is ",activeModalID);
-    slideIndex += n; 
+    currentImage += n; //first defined in art_test.html 
     var shownImageID = activeModalID+"-shownImage";
     var slideTotalID = activeModalID+"-slidetotal";
     var slideNumID = activeModalID+"-slidenum";
-    console.log("Slide index: "+slideIndex)
-    document.getElementById(shownImageID).src = imagePaths[slideIndex];
-    document.getElementById(slideTotalID).innerHTML = imagePaths.length; //make slidelength into text
-    document.getElementById(slideNumID).innerHTML = slideIndex;
-  }
-
-  function resetIndex() {
-    slideIndex = 1; // need to call when modal closed
+    document.getElementById(shownImageID).src = activeImages[currentImage];
+    document.getElementById(slideTotalID).innerHTML = numImages; //make slidelength into text
+    document.getElementById(slideNumID).innerHTML = currentImage;
   }
 
   function clickedModal() {
     console.log("clicked on modal!");
-  }
-
-  function clickMe() {
-    console.log("Click me! ActiveModalID: ",typeof(activeModalID));
-    var shownImageID = activeModalID+"-shownImage";
-    console.log("Shown imageID: ",shownImageID);
   }
 
 //   document.getElementById('myLink').addEventListener('click', function(event) {

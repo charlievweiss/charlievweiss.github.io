@@ -6,10 +6,10 @@ img: submarine.png
 alt: image-alt
 project-date: Month YYYY
 org: 
-categories: [ art_test ]
+categories: [ ]
 description: description
 ready: true
 loc: false
 more: false
-img_dir: test_string
+imgs_dir: test_string
 ---
