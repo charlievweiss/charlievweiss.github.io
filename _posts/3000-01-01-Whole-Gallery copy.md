@@ -12,4 +12,5 @@ ready: true
 loc: false
 more: false
 active_images: "/img/art_gallery/2024_11_squid.jpg,/img/art_gallery/2024_12_skylights.jpg"
+images_dir: '/img'
 ---

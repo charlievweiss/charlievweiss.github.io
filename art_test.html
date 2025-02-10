@@ -12,6 +12,8 @@ tag: art_test
   var activeImages = [];
   var numImages = 0;
   var currentImage = 0;
+  // create dictionary of all modal IDs with an array of their image paths (xx move to index.html later?)
+  let modalImagesDict = {};
 </script>
 
 <!-- Portfolio Grid (Tagged) Section -->
@@ -21,21 +23,39 @@ tag: art_test
       <!-- Make post for every post of tag (see _posts folder) -->
       {% for post in site.categories[page.tag] %}
       {% if post.ready %}
+      <!-- === JAVASCRIPT  === -->
+      <script> 
+        // reminder: jekyll fills in curly braces before javascript is compiled
+        // jekyll probably has some kind of dictionary corrollary of the posts' data somewhere, but idk. This works.
+        modalImagesDict["{{ post.modal-id }}"] = [];
+      </script>
+      <!-- terrible hack to avoid learning javascript properly. adds filepaths to dictionary. -->
+      {% for file in site.static_files %}
+        {% assign images_path = post.images_dir %}
+        {% if file.path contains images_path %}
+          <script>
+            modalImagesDict["{{ post.modal-id }}"].push("{{ file.path }}");
+          </script>
+        {% endif %}
+      {% endfor %}
       <!-- <div class="portfolio-flex-item portfolio-item"> -->
       <div class="portfolio-flex-item portfolio-item">
         <!-- ======= Links to modal -- activate on click events when modal opened =============== -->
         <a href="#galleryModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" id="link to {{ post.modal-id }}" modal-value="{{ post.modal-id }}" modal-images="{{ post.active_images }}">
-          <!-- This script updates the active modal variables! It works with updateSlide in modals_gallery.html -->
-           <!-- TODO: fix numbering and show image when modal first opens -->
-            <!-- currently only whole-gallery copy.md is in play for modals -->
+          <!-- This script updates the active modal variables! It works with script at bottom of modals_gallery.html -->
+           <!-- === JAVASCRIPT - needs to be here because iterating through posts === -->
           <script>
+            // testing
+            console.log("modal images dict:");
+            console.log(modalImagesDict);
             // update active modal attributes (defined above)
             document.getElementById("link to {{ post.modal-id }}").addEventListener('click', function(event) {
                 event.preventDefault(); // Prevents the default action of the link
-                var clickedHref = this.getAttribute('modal-value'); // Do something with the clicked value
+                var modalValue = this.getAttribute('modal-value'); // Do something with the clicked value
                 currentImage = 0; // reset current image
-                activeModalID = clickedHref; // a bit redudant, merge with line above
-                activeImages = this.getAttribute('modal-images').split(',');
+                activeModalID = modalValue; // a bit redudant, merge with line above
+                // activeImages = this.getAttribute('modal-images').split(',');
+                activeImages = modalImagesDict[modalValue];
                 numImages = activeImages.length;
                 console.log(activeImages,"type:",typeof(activeImages));
                 setShownModelInfo(); // defined in modals_gallery.html
