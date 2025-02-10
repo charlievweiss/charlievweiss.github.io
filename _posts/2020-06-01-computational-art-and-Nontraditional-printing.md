@@ -11,4 +11,5 @@ description: This project brought me light in those early quarantine days. I gen
 more: false
 loc: Newcomb, NY
 ready: true
+images_dir: /img/portfolio/art_gallery/202006_spirals
 ---

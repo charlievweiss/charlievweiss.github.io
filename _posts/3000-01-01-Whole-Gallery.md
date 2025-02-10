@@ -1,15 +1,15 @@
 ---
 layout: project
-modal-id: Wholegal
+modal-id: Wholegallery
 date: 2025-01-20
-img: submarine.png
+img: /art_gallery/wholegal.jpg
 alt: image-alt
-project-date: Month YYYY
+project-date: Since 1997 ;)
 org: 
-categories: [ art_test ]
-description: description
+categories: [ art ]
+description: Every art-related picture on my website (hopefully)
 ready: true
 loc: false
 more: false
-images_dir: /img/art_gallery
+images_dir: /img/portfolio/art_gallery
 ---

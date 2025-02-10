@@ -13,6 +13,7 @@ ready: true
 loc: false
 more: true
 excerpt_alt: true
+images_dir: img/portfolio/quilt_bryce_canyon
 ---
 
 <figure style="float:left; padding: 0em 0em 5em 0em;">

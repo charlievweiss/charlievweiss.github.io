@@ -504,6 +504,13 @@ footer .footer-below {
     object-fit: cover;
 }
 
+.responsive-square {
+    width: 100%;
+    block-size: auto;
+    aspect-ratio: 1/1; 
+    object-fit: cover;
+}
+
 .img-proj-centered {
     margin: 0 auto;
     max-width:600px;
