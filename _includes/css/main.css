@@ -504,6 +504,13 @@ footer .footer-below {
     object-fit: cover;
 }
 
+.responsive-square {
+    width: 100%;
+    block-size: auto;
+    aspect-ratio: 1/1; 
+    object-fit: cover;
+}
+
 .img-proj-centered {
     margin: 0 auto;
     max-width:600px;
@@ -565,4 +572,22 @@ figure {
 .blog_row {
     border-style: dotted;
     color: black;
+}
+
+/* CWS additions */
+.img-gallery-active {
+    width: 100%;
+    block-size: auto;
+    /* aspect-ratio: 3/2;  */
+    object-fit: contain;
+    max-height: 70vh;
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit:cover;
+    border:15px solid white;
 }

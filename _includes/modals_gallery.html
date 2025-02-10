@@ -1,0 +1,101 @@
+<!-- ###### STATUS ######## -->
+
+
+
+<!-- Portfolio Modals -->
+{% for post in site.posts %}
+<!-- ======================= NEW MODAL ========================== -->
+<div class="portfolio-modal modal fade" id="galleryModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> <!-- xxx trying show slides here -->
+            <h2>{{ post.title }}</h2>
+            <row>
+              <p>
+                <!-- ============== IMAGE NAVIGATION ================== -->
+                  <a onclick="updateSlide(-1)">&lt&ltprev</a>
+                  &nbsp;&nbsp;&nbsp;
+                  (
+                  <span id="{{ post.modal-id }}-slidenum"></span>
+                  /
+                  <span id="{{ post.modal-id }}-slidetotal"></span>
+                  )
+                  &nbsp;&nbsp;&nbsp;
+                  <a onclick="updateSlide(1)">next&gt&gt</a>
+              </p>
+            </row>
+            <div>                    
+              <!-- <img src="" class="responsive img-centered" id="{{ post.modal-id }}-shownImage"> -->
+              <img src="" class="img-gallery-active" id="{{ post.modal-id }}-shownImage">
+            </div>
+            <!-- ============ TYPICAL DESCRIPTION STUFF ============ -->
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% endif %}
+            {% if post.more %}
+            <p><a href="{{ site.url}}{{ post.url }}">Read the story here!</a></p>
+            {% else %}
+            <p></p>
+            {% endif %}
+            <ul class="list-inline item-details">
+              {% if post.org %}
+              <li>Organization:
+                <strong>{{ post.org }}</strong>
+              </li>
+              {% endif %}
+              {% if post.project-date %}
+              <li>Date:
+                <strong>{{ post.project-date }}</strong>
+              </li>
+              {% endif %}
+              {% if post.loc %}
+              <li>Location:
+                <strong>{{ post.loc }}</strong>
+              </li>
+              {% endif %}
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+<script>
+  function setShownModelInfo() {
+    // update slide with current values of vars set in art_test.html
+    console.log("Setting info of shown modal:",activeModalID);
+    // Set vars for get element by ID (unique for each modal)
+    var shownImageID = activeModalID+"-shownImage";
+    var slideTotalID = activeModalID+"-slidetotal";
+    var slideNumID = activeModalID+"-slidenum";
+    // update shown image source and text for number of total and current image
+    document.getElementById(shownImageID).src = activeImages[currentImage];
+    document.getElementById(slideTotalID).innerHTML = numImages;
+    document.getElementById(slideNumID).innerHTML = currentImage+1; //indexes from 0 but text should start at 1
+  }
+
+  function updateSlide(n) {
+    // update slide based on next (n=1) or previous (n=-1)
+    currentImage += n; //first defined in art_test.html 
+    // keep image index within bounds of numImages
+    if (currentImage > numImages-1) {
+      currentImage = 0; //restart at 0
+    } else if (currentImage < 0) {
+      currentImage = numImages-1; //roll over to last image
+    }
+    setShownModelInfo(); //update model info    
+  }
+</script>
+</html>
