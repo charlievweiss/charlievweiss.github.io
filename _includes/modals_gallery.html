@@ -39,7 +39,8 @@
               </p>
             </row>
             <div>                    
-              <img src="" class="responsive img-centered" id="{{ post.modal-id }}-shownImage">
+              <!-- <img src="" class="responsive img-centered" id="{{ post.modal-id }}-shownImage"> -->
+              <img src="" class="img-gallery-active" id="{{ post.modal-id }}-shownImage">
             </div>
             <!-- ============ TYPICAL DESCRIPTION STUFF ============ -->
             {% if post.description %}
@@ -78,15 +79,6 @@
 {% endfor %}
 
 <script>
-  // Psuedocode:
-  // - 2d array of [modal image locs][modal image path]
-  function updateGalleryData(test) {
-    image_dir = test.toString();
-    console.log("in updateGalleryData");
-    // var image_dir = ; 
-    console.log("variable passed:"+test);
-  }
-
   function setShownModelInfo() {
     // update slide with current values of vars set in art_test.html
     console.log("Setting info of shown modal:",activeModalID);
@@ -111,16 +103,5 @@
     }
     setShownModelInfo(); //update model info    
   }
-
-  function clickedModal() {
-    console.log("clicked on modal!");
-  }
-
-//   document.getElementById('myLink').addEventListener('click', function(event) {
-//     event.preventDefault(); // Prevents the default action of the link
-//     var clickedHref = this.getAttribute('data-value'); // Do something with the clicked value
-//     console.log('Clicked value:', clickedHref);
-// });
-
 </script>
 </html>
