@@ -6,12 +6,13 @@
       <div class="col-lg-12">
         <!-- <img class="img-responsive" src="/img/profile.png" alt="profile-pic" /> -->
         <div class="intro-text">
-          <span class="name">{{ page.title }}</span>
+          <span class="name" style="text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000;">{{ page.title }}</span>
+          <!-- <span class="name" style="-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: black;">{{ page.title }}</span> -->
           <!-- <hr class="star-light" /> -->
           <!-- <span class="skills">{{ page.description }}</span> -->
         </div>
         <div>
-          <p><i>Posted {{ page.date | date: "%B %d, %Y"}}</i></p>
+          <p style="text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;"><i>Posted {{ page.date | date: "%B %d, %Y"}}</i></p>
         </div>
       </div>
     </div>
