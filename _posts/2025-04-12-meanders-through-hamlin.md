@@ -8,7 +8,7 @@ project-date: Month YYYY
 org: 
 categories: [ blog, hamlin ]
 description:
-ready: false
+ready: true
 loc: false
 more: false
 images_dir: /img/portfolio/art_gallery/
@@ -27,7 +27,7 @@ A few weeks ago, my health recovered to a point that I felt able to join the wee
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
-As big as the restoration area is, Hamlin is much bigger. The park includes roughly 70 acres of second-growth forest (King County 2025). The understory ranges from thick native understory to swaths of heavily human- and dog-compacted ground to thick invasive cover. The natives are primarily dull Oregon grape, salal, and sword fern with some red huckleberry (<i>Vaccinium parvifolium</i>)-- a noteably less diverse species profile from the restoration area. I'm curious why. Historic aerials show the whole area was logged in the 1930s which means the current status is probably not a reliable representation of an "undisturbed" understory. This past week I wandered through Carkeek Park and Tiger Mountain to see a couple other examples, but in truth I don't know their history either. I did notice more species diversity, but nothing like the restoration area. Of course this difference lies in the struggle between mimicking reference sites and how good those sites are, the need to cram biodiversity into small available pockets in big urban areas, which native plants are available, available labor, money, etc etc. There is no perfection in the world of restoration. I will still ponder.
+As big as the restoration area is (I estimate 1/4 acre), Hamlin is much bigger. The park includes roughly 80 acres of second-growth forest (King County 2025a,b). The understory ranges from thick native understory to swaths of heavily human- and dog-compacted ground to thick invasive cover. The natives are primarily dull Oregon grape, salal, and sword fern with some red huckleberry (<i>Vaccinium parvifolium</i>)-- a noteably less diverse species profile from the restoration area. I'm curious why. Historic aerials show the whole area was logged in the 1930s which means the current status is probably not a reliable representation of an "undisturbed" understory. This past week I wandered through Carkeek Park and Tiger Mountain to see a couple other examples, but in truth I don't know their history either. I did notice more species diversity, but nothing like the restoration area. I imagine this difference lies in the struggle between mimicking reference sites and how good those sites are, the need to cram biodiversity into small available pockets in big urban areas, which native plants are available, available labor, money, etc etc. There is no perfection in the world of restoration. I will still ponder.
 <p>
 XX historic aerial
 
@@ -65,7 +65,11 @@ Well that's about all I have in my to write about today, but thanks for reading!
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
-King County. 2025. Property detail of parcel 162604-9083. King County Department of Assessments. Available at https://blue.kingcounty.com/Assessor/eRealProperty/Detail.aspx?ParcelNbr=1626049083 (Accessed April 12, 2025)
+King County. 2025a. Property detail of parcel 162604-9083. King County Department of Assessments. Available at https://blue.kingcounty.com/Assessor/eRealProperty/Detail.aspx?ParcelNbr=1626049083 (Accessed April 12, 2025)
+</p>
+
+<p style="padding: 0 0em 1em 0em;">
+King County. 2025b. Property detail of parcel 162604-9017. King County Department of Assessments. Available at https://blue.kingcounty.com/Assessor/eRealProperty/Detail.aspx?ParcelNbr=1626049017 (Accessed April 12, 2025)
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
