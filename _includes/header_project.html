@@ -29,9 +29,11 @@
           <!-- <hr class="star-light" /> -->
           <!-- <span class="skills">{{ page.description }}</span> -->
         </div>
+        {% if page.noshowdate != true %}
         <div>
           <p><i>Posted {{ page.date | date: "%B %d, %Y"}}</i></p>
         </div>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -44,9 +46,11 @@
         <!-- <img class="img-responsive" src="/img/profile.png" alt="profile-pic" /> -->
         <div class="intro-text">
           <span class="name">{{ page.title }}</span>
+          {% if page.noshowdate != true %}
           <div>
             <p><i>Posted {{ page.date | date: "%B %d, %Y"}}</i></p>
           </div>
+          {% endif %}
           <!-- <hr class="star-light" /> -->
           <!-- <span class="skills">{{ page.description }}</span> -->
         </div>

@@ -39,7 +39,7 @@ more: true
 <p style="padding: 1em 0em 1em 0em;">It was fascinating how my field work translated to working in ArcGIS Pro. Layers of CIR, RGB, and LiDAR imagery showed me the grand landscape of the wetlands I visited, but I could still picture each one: "Oh, this magenta patch is where I topped out my boot, this depression is where we ate those Cloudberries..." Thousands of wetlands later, I'm so excited to see my work go up on the NWI Mapper! I've been promised it'll happen by the end of 2023.</p>
 
 <p style="padding: 1em 0em 1em 0em;">
-And since I'm sure you'd like to see the more technical stuff from this project, <a href="{{ site.url }}/writing-samples.html"> please check out my reports and presentations here.</a></p>
+And since I'm sure you'd like to see the more technical stuff from this project, <a href="{{ site.url }}/blog/writing-samples.html"> please check out my reports and presentations here.</a></p>
 
 <p style="padding: 1em 0em 1em 0em;">
 Thanks for reading!
