@@ -2,7 +2,7 @@
 layout: project
 modal-id: YYYYMMDD
 date: 2025-10-20
-img:
+img: The_Moth_Logo.png
 banner-img:
 alt: image-alt
 project-date: Month YYYY
