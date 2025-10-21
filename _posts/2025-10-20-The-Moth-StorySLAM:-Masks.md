@@ -26,11 +26,11 @@ When I was 27 years old, I became gradually, then suddenly, and invisibly, disab
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
-It started as a sharp pain in my right foot when I walked, but I had been running so that was probably nothing. 2 weeks later, my left foot started hurting, which was still probably nothing. 2 more weeks and my wrists started tingling. But I had played a lot of violin that weekend, so that was also probably nothing.
+It started as a sharp pain in my right foot, but I had been running so that was probably nothing. Two weeks later, my left foot started hurting, which was still probably nothing. Two more weeks and my wrists started tingling. But I had played a lot of violin that weekend, so that was also probably nothing.
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
-Another 2 weeks, and the rest of my body fell to pain, all at once. I woke up dizzy, exhausted, and I could barely stand. My muscles couldn't seem to relax, and painful electricity surged throughout my body. Finally, undeniably, I knew something was wrong.
+Another two weeks, and the rest of my body fell to pain, all at once. I woke up dizzy, exhausted, and I could barely stand. My muscles couldn't seem to relax, and painful electricity surged throughout my body. Finally, undeniably, I knew something was wrong.
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
@@ -42,11 +42,11 @@ Despite every torture I was experiencing, no one could find anything wrong with 
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
-But the neurologist did actually believe me. He told me how he’s seen weird stuff happen that we can't explain yet. He had ruled out things that would kill me and the best thing I could do for myself–while waiting for science to catch up to me–was eat well, sleep well, don’t drink or do drugs, and try exercising 3 times a week.
+But the neurologist did actually believe me. He told me how he’s seen weird stuff happen that we can't explain yet. He had ruled out the things that would kill me and the best thing I could do for myself—while waiting for science to catch up to me—was eat well, sleep well, don’t drink or do drugs, and try exercising three times a week.
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
-So I learned how to eat well, I slept 10 hours a night, never drank, and started swimming in the super slow lane at the pool. I went to physical therapy to target problem areas, which was, y’know, my whole body. As I learned more management strategies, I was able to work more, and come back to the office part-time for as long as I could tolerate the pain. I put on a nice smile, lied through the “hi how are you”s, and went home completely drained.
+So I learned how to eat well, I slept 10 hours a night, never drank, and started swimming in the super slow lane at the pool, three times a week. I went to physical therapy to target problem areas, which was, y’know, my whole body. As I learned more management strategies, I was able to work more, and come back to the office part-time for as long as I could tolerate the pain. I put on a nice smile, lied through the “hi how are you”s, and went home completely drained.
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
@@ -58,7 +58,7 @@ I learned a kind of “disabled person” code. “I’m fine” means “just t
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
-Over time I learned to accept this apparently common hell. Then, 8 months after the full collapse, I had an epiphany. While I once again tried to relax my clenched jaw at work, I realized jaw pain was a listed side effect of a medication I had been taking for years. And I remembered that I had changed pharmacies right before my foot pain started, and this new pharmacy used a different manufacturer, which can affect how medications work.
+Over time I learned to accept this apparently common hell. Then, eight months after the full collapse, I had an epiphany. While I once again tried to relax my clenched jaw at work, I realized jaw pain was a listed side effect of a medication I had been taking for years. And I remembered that I had changed pharmacies right before my foot pain started, and this new pharmacy used a different manufacturer, which can affect how medications work.
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
@@ -66,7 +66,7 @@ Under my prescriber’s supervision, I stopped taking the medication. 2 days lat
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
-All these possibilities I had mourned came rushing back to me, all at once. I finally jumped into the folk community, started calling my violin a fiddle, played my heart out, and danced for hours and hours. And it turns out I’m a pretty good fiddler and a pretty good dancer, and all these folk people know each other, but they don’t know me– and they say, “I haven’t seen you before! Did you just move here?”
+All these possibilities I had mourned came rushing back to me, all at once. I finally jumped into the folk community, started calling my violin a fiddle, played my heart out, and danced for hours and hours. And it turns out I’m a pretty good fiddler and a pretty good dancer, and all these folk people know each other, but they don’t know me— and they say, “I haven’t seen you before! Did you just move here?”
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
@@ -74,9 +74,9 @@ And I feel another mask slipping on. I want to tell the truth, but the truth is 
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
-But we don’t say that stuff off-stage. We say we’re great!, good, a bit tired, or we’re just hanging in there… I am so, so lucky, to be better. To be so obnoxiously healthy that no one would ever guess I was disabled like that– 6 months ago!
+But we don’t say that stuff off-stage. We say we’re great!, good, a bit tired, or we’re just hanging in there… I am so, so lucky, to be better. To be so obnoxiously healthy that no one would ever guess I was disabled like that— 6 months ago!
 </p>
 
 <p style="padding: 0 0em 1em 0em;">
-I can't wave this magic wand for everyone else. But I can try to be exceedingly kind to people, to help get them through whatever kind of day they’re having, and whatever mask they’re wearing. And I will never take anything for granted ever again.
+I can't wave this magic wand for everyone else. But I can try to be exceedingly kind to people, to help get them through whatever kind of day they’re having, whatever mask they’re wearing. And I will never take anything for granted ever again.
 </p>
