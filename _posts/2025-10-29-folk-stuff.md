@@ -19,7 +19,7 @@ Fiddling and dancing!
 </p>
 <h1>Dances</h1>
 <p>
-I like to dance! Here's some stuff I've been to in North Seattle.
+I like to dance! Here's some stuff I've been to in North Seattle. All have live music.
 </p>
 <p>
     <ul>
@@ -30,6 +30,7 @@ I like to dance! Here's some stuff I've been to in North Seattle.
         <li>2nd Saturday Community Dances at Haller Lake (much easier for new dancers): <a href="https://seattledance.org/hallerlake/">https://seattledance.org/hallerlake/</a></li>
         <ul><li>Musicians: It's an open drop-in band in 2025! Super fun.</li></ul>
         <li>4th Monday Tractor Tavern square dances (usually more than half beginners I'm told): <a href="https://tractortavern.com/">https://tractortavern.com/</a></li>
+        <li>Honky Tonk Tuesdays at <a href="https://www.conorbyrnepub.com/">Conor Byrne</a>! Every Tuesday. 8 pm free lessons, dance 9pm-midnight.</li>
     </ul>
 </p>
 
