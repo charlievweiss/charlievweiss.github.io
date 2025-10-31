@@ -16,7 +16,7 @@ more: false
 
 <div>
 <p>
-These are writing samples throughout my education and career. Unfortunately, the list is a bit outdated, because I often can't share what I've written for clients. One hopes ones writing has gotten better over time.
+These are writing samples throughout my education and career. Unfortunately, the list is a bit outdated, because I often can't share what I've written for clients. One hopes one's writing has gotten better over time.
 </p>
 <p>
 There may be some more recent writing on my blog (granted, it's more casual). 
