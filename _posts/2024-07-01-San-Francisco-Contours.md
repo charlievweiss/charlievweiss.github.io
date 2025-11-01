@@ -6,7 +6,7 @@ img: /art_gallery/202407_sf_contours/2024_07_contours.jpg
 alt: image-alt
 project-date: July 2024
 org: 
-categories: [ art ]
+categories: [ art, home ]
 description: A wedding art quilt for some SF friends <3
 ready: true
 loc: false

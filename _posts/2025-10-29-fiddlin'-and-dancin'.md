@@ -3,21 +3,40 @@ layout: project
 modal-id: 20230407
 date: 2025-10-29
 noshowdate: true
-img: submarine.png
+img: fine_tuner.jpg
 alt: image-alt
 project-date: October 2025
 org: 
-categories: [ blog ]
-description:
+categories: [ blog, home ]
+description: Resources for dancing and fiddling in (North) Seattle.
 ready: true
 loc: false
-more: false
+more: true
+excerpt_alt: true
 ---
 
-<p>
-Fiddling and dancing!
-</p>
-<h1>Dances</h1>
+<nav id="table-of-contents">
+  <h2>Table of Contents</h2>
+  <ul style="padding: 1em">
+    <li><a href="#dances">Dancin'</a></li>
+    <li>
+      <a href="#fiddling">Fiddlin'</a>
+      <ul>
+        <li><a href="#old-time">Old Time</a>
+        </li>
+        <li><a href="#quebecois">Quebecois</a>
+        </li>
+        <li><a href="#bluegrass">Bluegrass</a>
+        </li>
+        <li><a href="#scottish">Scottish</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+<h2 id="dances" style="padding: 1em 0em 0em 0em;">Dancin'</h2>
 <p>
 I like to dance! Here's some stuff I've been to in North Seattle. All have live music.
 </p>
@@ -34,15 +53,19 @@ I like to dance! Here's some stuff I've been to in North Seattle. All have live 
     </ul>
 </p>
 
-<h1>Fiddling</h1>
+<div class="col-lg-12 text-center" style="padding: 1em 0em 0em 0em;">
+    <hr class="star-primary">
+</div>
+
+<h2 id="fiddling" style="padding: 0em 0em 0em 0em;">Fiddlin'</h2>
 <p>
 I've been jumping into all kinds of styles, it's a bit ridiculous. 
 </p>
 <p>
 Tip for newcomers: There's a mailing list for everything. Ask around when you go to a jam to get on it :) Play at a respectful volume; you should be able to hear the leader (unless everyone is jamming out on a serious bop). If you're not sure about etiquette, ask! It's helpful to learn a few tunes beforehand, so I listed some below.
 </p>
-<h2>Old time</h2>
-<h3>Resources</h3>
+<h2 id="old-time" style="padding: 1em 0em 0em 0em;">Old time</h2>
+<h3 id="old-time-resources">Resources</h3>
 <p>
     <ul>
         <li><a href="https://www.slippery-hill.com/">Slippery Hill</a> - the big online repository of old time tunes. Hope you like scratchy old recordings!</li>
@@ -57,7 +80,7 @@ Tip for newcomers: There's a mailing list for everything. Ask around when you go
             </ul>
     </ul>
 </p>
-<h3>A few tunes Seattlites will recognize</h3>
+<h3 id="old-time-tunes">A few tunes Seattlites will recognize</h3>
 <p>
     <ul>
         <li>Blue Eyed Susie <a href="https://www.youtube.com/watch?v=t7s-PediMvM">(YouTube)</a></li>
@@ -67,7 +90,7 @@ Tip for newcomers: There's a mailing list for everything. Ask around when you go
         <li>Ida Red <a href="https://www.slippery-hill.com/content/ida-red-1">(Slippery Hill)</a></li>
     </ul>
 </p>
-<h3>Jams</h3>
+<h3 id="old-time-jams">Jams</h3>
 <p>
     <ul>
         <li>There's a <a href="https://www.facebook.com/groups/oldtimeseattle/">Seattle Old Time Facebook group</a> which announces stuff</li>
@@ -81,8 +104,8 @@ Tip for newcomers: There's a mailing list for everything. Ask around when you go
     </ul>
 </p>
 
-<h2>Quebecois</h2>
-<h3>Resources</h3>
+<h2 id="quebecois" style="padding: 1em 0em 0em 0em;">Quebecois</h2>
+<h3 id="quebecois-resources">Resources</h3>
 <p>
     <ul>
         <li><a href="https://thesession.org/">The Session</a> is a repository of sheet music for traditional Irish tunes, but there's a lot of overlap with Quebecois.</li>
@@ -99,7 +122,7 @@ Tip for newcomers: There's a mailing list for everything. Ask around when you go
             </ul>
     </ul>
 </p>
-<h3>A few tunes Seattlites will recognize</h3>
+<h3 id="quebecois-tunes">A few tunes Seattlites will recognize</h3>
 <p>
     <ul>
         <li>Caribou Reel <a href="https://www.youtube.com/watch?v=tBd8wI33xag">(YouTube)</a> <a href="https://thesession.org/tunes/17634">(Sheet music)</a></li>
@@ -112,7 +135,7 @@ Tip for newcomers: There's a mailing list for everything. Ask around when you go
         <li>Maison de glace (The Ice House) <a href="https://www.youtube.com/watch?v=AmR3nZBeEdk">(YouTube)</a> <a href="https://thesession.org/tunes/9002">(Sheet music)</a></li>
     </ul>
 </p>
-<h3>Jams</h3>
+<h3 id="quebecois-jams">Jams</h3>
 <p>
     <ul>
         <li>4th Saturdays at the <a href="https://www.couthbuzzard.com/">Couth Buzzard!</a></li>
@@ -122,8 +145,8 @@ Tip for newcomers: There's a mailing list for everything. Ask around when you go
     </ul>
 </p>
 
-<h2>Bluegrass</h2>
-<h3>Jams</h3>
+<h2 id="bluegrass" style="padding: 1em 0em 0em 0em;">Bluegrass</h2>
+<h3 id="bluegrass-jams">Jams</h3>
 <p>
     <ul>
         <li><a href="https://www.outlandersbluegrass.org/">Outlanders bluegrass</a> seems like a good organization to follow?</li>
@@ -132,14 +155,14 @@ Tip for newcomers: There's a mailing list for everything. Ask around when you go
     </ul>
 </p>
 
-<h2>Scottish</h2>
-<h3>Resources</h3>
+<h2 id="scottish" style="padding: 1em 0em 0em 0em;">Scottish</h2>
+<h3 id="scottish-resources">Resources</h3>
 <p>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=EBC1pQawfy4&list=PLvxdxPB0PG_9SFLTHfwt8Mh99e7i7apsL">Scottish Fiddle Technique by Hanneke Cassel (YouTube)</a></li>
     </ul>
 </p>
-<h3>Jams</h3>
+<h3 id="scottish-jams">Jams</h3>
 <p>
     <ul>
         <li>2nd Mondays at <a href="https://www.conorbyrnepub.com/">Conor Byrne</a> hosted by the Scottish Fiddle Collective. Concert from 7-9 pm, open jam after.</li>
