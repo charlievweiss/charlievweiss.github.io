@@ -7,7 +7,7 @@ banner-img: false
 banner-color: f59b42
 alt: picture of quilt
 project-date: February(-ish) 2023
-categories: [ art, blog ]
+categories: [ art, blog, home ]
 description: I made a free motion quilt based off of a snarky poster designed by Amber Share (@subparparks on Instagram)
 ready: true
 loc: false

@@ -8,11 +8,12 @@ alt: image-alt
 project-date: Month YYYY
 org: 
 categories: [ blog ]
-description:
+description: I wrote a story for Moth StorySLAM on October 2nd, 2025. The theme was Masks.
 ready: true
 loc: false
 more: false
 images_dir:
+excerpt_alt: true
 ---
 
 <p style="padding: 0 0em 1em 0em;">
