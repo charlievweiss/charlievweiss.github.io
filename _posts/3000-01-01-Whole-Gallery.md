@@ -1,7 +1,7 @@
 ---
 layout: project
 modal-id: Wholegallery
-date: 2025-01-20
+date: 2025-11-14
 img: /art_gallery/wholegal.jpg
 alt: image-alt
 project-date: Since 1997 ;)
